@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  web-frontend:
+    build: .
+    volumes:
+      - .:/code
+    expose:
+      - 3000
+    command: sh -c 'npm run build && npm run start'
+    environment:
+        VIRTUAL_HOST: sportscard.techequipt.com.au
+        LETSENCRYPT_HOST: sportscard.techequipt.com.au
+        LETSENCRYPT_EMAIL: jason@techequipt.com.au
+
+networks:
+    default:
+        external:
+            name: nginx-proxy

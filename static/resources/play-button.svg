@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="92px" viewBox="0 0 92 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>play-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.1%" y="-1.9%" width="103.0%" height="105.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.133333333   0 0 0 0 0.133333333   0 0 0 0 0.133333333  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="-2.53146701%" y1="0%" x2="100%" y2="94.1575353%" id="linearGradient-2">
+            <stop stop-color="#7DDA33" offset="0%"></stop>
+            <stop stop-color="#558D28" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-690.000000, -1669.000000)">
+            <g id="video" transform="translate(0.000000, 1118.000000)">
+                <g filter="url(#filter-1)" transform="translate(250.000000, 327.000000)" id="play-button">
+                    <g transform="translate(444.000000, 228.000000)">
+                        <circle id="Oval" fill="url(#linearGradient-2)" cx="38" cy="38" r="38"></circle>
+                        <path d="M22.1269522,25.9755622 L44.6110017,19.7337258 C47.2717969,18.9950578 50.0276062,20.5532497 50.7662742,23.2140448 C51.0092132,24.0891482 51.0092132,25.0138949 50.7662742,25.8889983 L44.5244378,48.3730478 C43.7857698,51.033843 41.0299604,52.5920349 38.3691653,51.8533669 C37.5381542,51.6226684 36.7809447,51.1809416 36.1711081,50.571105 L19.928895,34.3288919 C17.9762735,32.3762704 17.9762735,29.2104455 19.928895,27.2578241 C20.5387316,26.6479875 21.2959411,26.2062607 22.1269522,25.9755622 Z" id="Rectangle-6" fill="#FEFEFE" transform="translate(33.500000, 37.000000) rotate(-315.000000) translate(-33.500000, -37.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
